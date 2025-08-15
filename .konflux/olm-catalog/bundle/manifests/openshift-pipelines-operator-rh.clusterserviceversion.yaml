@@ -1269,7 +1269,7 @@ spec:
                       - name: IMAGE_PIPELINES_ARG__SIDECARLOGRESULTS_IMAGE
                         value: registry.redhat.io/openshift-pipelines/pipelines-sidecarlogresults-rhel9@sha256:dd0dfe2317da50fba9693419bbefe2b102d5a2f3193ca1051b3e342860ba8802
                       - name: IMAGE_PIPELINES_ARG__NOP_IMAGE
-                        value: registry.redhat.io/openshift-pipelines/pipelines-nop-rhel9@sha256:3bee61f6de29239b63c9b739f3f58653353cbcd2d1d30b02103e7f1ad0fed2a2
+                        value: registry.redhat.io/openshift-pipelines/pipelines-nop-rhel9@sha256:b321a54a6d8d40908e2a8f5bc0c1b5386527fa5976e47cdbc25223f33fe4543f
                       - name: IMAGE_PIPELINES_ARG__SHELL_IMAGE
                         value: registry.redhat.io/openshift-pipelines/pipelines-entrypoint-rhel9@sha256:568ff8a4facb9b020ebb2fc298126b73993cf62735e286fe19f2f4cb7f01153a
                       - name: IMAGE_TRIGGERS_TEKTON_TRIGGERS_CONTROLLER
@@ -1515,7 +1515,7 @@ spec:
       name: IMAGE_PIPELINES_ARG__WORKINGDIRINIT_IMAGE
     - image: registry.redhat.io/openshift-pipelines/pipelines-sidecarlogresults-rhel9@sha256:dd0dfe2317da50fba9693419bbefe2b102d5a2f3193ca1051b3e342860ba8802
       name: IMAGE_PIPELINES_ARG__SIDECARLOGRESULTS_IMAGE
-    - image: registry.redhat.io/openshift-pipelines/pipelines-nop-rhel9@sha256:3bee61f6de29239b63c9b739f3f58653353cbcd2d1d30b02103e7f1ad0fed2a2
+    - image: registry.redhat.io/openshift-pipelines/pipelines-nop-rhel9@sha256:b321a54a6d8d40908e2a8f5bc0c1b5386527fa5976e47cdbc25223f33fe4543f
       name: IMAGE_PIPELINES_ARG__NOP_IMAGE
     - image: registry.redhat.io/openshift-pipelines/pipelines-entrypoint-rhel9@sha256:568ff8a4facb9b020ebb2fc298126b73993cf62735e286fe19f2f4cb7f01153a
       name: IMAGE_PIPELINES_ARG__SHELL_IMAGE
