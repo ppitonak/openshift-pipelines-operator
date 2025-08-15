@@ -1,5 +1,5 @@
 versions:
-  current: 1.20.0
+  current: 1.20.0-
   previous: 1.20.0
   previous_range: 1.19.0
   channel: pipelines-1.20
@@ -110,7 +110,7 @@ images:
     value: quay.io/redhat-user-workloads/tekton-ecosystem-tenant/1-20/operator-bundle-rhel9@sha256:70546cf6f27cc37e73036196862908ae9c2889e3f81e455c7a4a0c25ac3b3547
   # opc
   - name: IMAGE_ADDONS_OPC
-    value: quay.io/redhat-user-workloads/tekton-ecosystem-tenant/1-20/opc-rhel9@sha256:c7b21c8e280f62b5cf911935ed3c75ea08f4f387afefb5827e1ed89a3116ccbd 
+    value: quay.io/redhat-user-workloads/tekton-ecosystem-tenant/1-20/opc-rhel9@sha256:c7b21c8e280f62b5cf911935ed3c75ea08f4f387afefb5827e1ed89a3116ccbd
   # Pruner
   - name: IMAGE_PRUNER_CONTROLLER
     value: quay.io/redhat-user-workloads/tekton-ecosystem-tenant/1-20/pruner-controller-rhel9@sha256:fd3670ed5a6b91f345a52f312329c4148def89df2557dc0cc4da973afea8be8b
