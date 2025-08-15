@@ -327,7 +327,7 @@
     {
       "schema": "olm.bundle",
       "name": "openshift-pipelines-operator-rh.v5.0.5-657",
-      "image": "quay.io/openshift-pipeline/pipelines-operator-bundle@sha256:4248a428d29411ea3e293dff7b44c890fead586b289315671a28e37b9ff86421"
+      "image": "quay.io/openshift-pipeline/pipelines-operator-bundle@sha256:14110ed1eef7ed627e7b8c5dfef93070ae108ad0f22cab8a68b528ff17568e6c"
     },
     {
       "schema": "olm.bundle",
